@@ -85,6 +85,7 @@ public class Picture
      */
     public void setColor()
     {
+        sky1.changeColor("skyblue");
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
