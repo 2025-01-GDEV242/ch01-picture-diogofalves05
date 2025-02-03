@@ -67,8 +67,8 @@ public class Picture
             roof.makeVisible();
     
             sun.changeColor("yellow");
-            sun.moveHorizontal(100);
-            sun.moveVertical(-40);
+            sun.moveHorizontal(125);
+            sun.moveVertical(-70);
             sun.changeSize(80);
             sun.makeVisible();
             drawn = true;
@@ -80,7 +80,8 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        sky.changeColor("Black");
+        sky.changeColor("black");
+        grass.changeColor("white");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
