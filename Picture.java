@@ -94,6 +94,7 @@ public class Picture
         window.changeColor("white");
         roof.changeColor("black");
         sun.changeColor("white");
+        kid.changeColor("black");
     }
 
     /**
