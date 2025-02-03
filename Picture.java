@@ -6,8 +6,8 @@
  *
  * This class was written as an early example for teaching Java with BlueJ.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * @author  Diogo Alves
+ * @version 2025.02.03
  */
 public class Picture
 {
@@ -108,5 +108,6 @@ public class Picture
         window.changeColor("skyblue");
         roof.changeColor("black");
         sun.changeColor("yellow");
+        kid.changeColor("black");
     }
 }
