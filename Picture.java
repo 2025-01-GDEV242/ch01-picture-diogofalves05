@@ -12,6 +12,7 @@
 public class Picture
 {
     private Square sky1;
+    private Square grass;
     private Square wall;
     private Square window;
     private Triangle roof;
@@ -24,6 +25,7 @@ public class Picture
     public Picture()
     {
         sky1 = new Square();
+        grass = new Square();
         wall = new Square();
         window = new Square();
         roof = new Triangle();  
@@ -42,6 +44,11 @@ public class Picture
             sky1.moveVertical(-550);
             sky1.changeSize(550);
             sky1.makeVisible();
+            
+            grass.changeColor("green");
+            grass.moveHorizontal(-320);
+            grass.changeSize(550);
+            grass.makeVisible();
             
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
