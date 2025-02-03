@@ -11,7 +11,7 @@
  */
 public class Picture
 {
-    private Square sky1;
+    private Square sky;
     private Square grass;
     private Square wall;
     private Square window;
@@ -24,7 +24,7 @@ public class Picture
      */
     public Picture()
     {
-        sky1 = new Square();
+        sky = new Square();
         grass = new Square();
         wall = new Square();
         window = new Square();
@@ -39,11 +39,11 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            sky1.changeColor("skyblue");
-            sky1.moveHorizontal(-340);
-            sky1.moveVertical(-550);
-            sky1.changeSize(550);
-            sky1.makeVisible();
+            sky.changeColor("skyblue");
+            sky.moveHorizontal(-340);
+            sky.moveVertical(-550);
+            sky.changeSize(550);
+            sky.makeVisible();
             
             grass.changeColor("green");
             grass.moveHorizontal(-320);
@@ -80,7 +80,7 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        sky1.changeColor("Black");
+        sky.changeColor("Black");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
@@ -92,7 +92,7 @@ public class Picture
      */
     public void setColor()
     {
-        sky1.changeColor("skyblue");
+        sky.changeColor("skyblue");
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
