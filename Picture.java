@@ -73,6 +73,7 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
+        sky1.changeColor("Black");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
