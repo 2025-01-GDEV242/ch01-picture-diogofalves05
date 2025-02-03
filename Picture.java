@@ -55,7 +55,7 @@ public class Picture
             wall.changeSize(120);
             wall.makeVisible();
             
-            window.changeColor("black");
+            window.changeColor("skyblue");
             window.moveHorizontal(-120);
             window.moveVertical(40);
             window.changeSize(40);
@@ -97,7 +97,7 @@ public class Picture
         sky.changeColor("skyblue");
         grass.changeColor("green");
         wall.changeColor("red");
-        window.changeColor("black");
+        window.changeColor("skyblue");
         roof.changeColor("black");
         sun.changeColor("yellow");
     }
