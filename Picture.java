@@ -61,6 +61,7 @@ public class Picture
             window.changeSize(40);
             window.makeVisible();
     
+            roof.changeColor("black");
             roof.changeSize(60, 180);
             roof.moveHorizontal(20);
             roof.moveVertical(-60);
