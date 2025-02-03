@@ -94,6 +94,7 @@ public class Picture
     public void setColor()
     {
         sky.changeColor("skyblue");
+        grass.changeColor("green");
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
