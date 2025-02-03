@@ -17,6 +17,7 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Person kid;
     private boolean drawn;
 
     /**
@@ -24,6 +25,7 @@ public class Picture
      */
     public Picture()
     {
+        kid = new Person();
         sky = new Square();
         grass = new Square();
         wall = new Square();
@@ -72,6 +74,11 @@ public class Picture
             sun.moveVertical(-70);
             sun.changeSize(80);
             sun.makeVisible();
+            
+            kid.changeSize(80,40);
+            kid.moveHorizontal(-215);
+            kid.moveVertical(55);
+            kid.makeVisible();
             drawn = true;
         }
     }
