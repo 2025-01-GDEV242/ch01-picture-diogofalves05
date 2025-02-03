@@ -98,7 +98,7 @@ public class Picture
         grass.changeColor("green");
         wall.changeColor("red");
         window.changeColor("black");
-        roof.changeColor("green");
+        roof.changeColor("black");
         sun.changeColor("yellow");
     }
 }
