@@ -75,6 +75,7 @@ public class Picture
             sun.changeSize(80);
             sun.makeVisible();
             
+            kid.changeColor("skin color");
             kid.changeSize(80,40);
             kid.moveHorizontal(-215);
             kid.moveVertical(55);
@@ -108,6 +109,6 @@ public class Picture
         window.changeColor("skyblue");
         roof.changeColor("black");
         sun.changeColor("yellow");
-        kid.changeColor("black");
+        kid.changeColor("skin color");
     }
 }

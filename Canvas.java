@@ -146,7 +146,7 @@ public class Canvas
         else if(colorString.equals("skyblue")) {
 		graphic.setColor(new Color(135, 206, 235));
         }   
-	else if(colorString.equals("Skin Color")) {
+	else if(colorString.equals("skin color")) {
 	    graphic.setColor(new Color(255, 219, 172));
 	}
         else {
